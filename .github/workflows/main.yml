@@ -1,6 +1,9 @@
 name: Update Adblock List
 
 on:
+  # Roda a cada 3 horas
+  schedule:
+    - cron: '0 */3 * * *'
   push:
     paths:
       - "filters.txt"   # roda só se filters.txt for modificado
