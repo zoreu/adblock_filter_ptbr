@@ -1,0 +1,40 @@
+name: Update Adblock List
+
+on:
+  push:
+    paths:
+      - "filters.txt"   # roda só se filters.txt for modificado
+  workflow_dispatch:    # também permite rodar manualmente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write  # 🔑 permite push com o GITHUB_TOKEN
+      
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate Adblock List
+        run: python generate_adblock.py
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit changes
+        run: |
+          git add adblock_list.txt
+          git diff --cached --quiet || git commit -m "Update dns.txt"
+
+      - name: Push changes
+        run: |
+          git push          
