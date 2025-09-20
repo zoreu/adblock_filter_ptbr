@@ -1,4 +1,4 @@
-# adblock_filter_ptbr
+# LISTA PT-BR PARA ADBLOCK/UBLOCK
 
 ## 📥 Link da lista Adblock - PT-BR
 
