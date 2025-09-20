@@ -36,7 +36,7 @@ jobs:
       - name: Commit changes
         run: |
           git add adblock_list.txt
-          git diff --cached --quiet || git commit -m "Update dns.txt"
+          git diff --cached --quiet || git commit -m "Update adblock_list.txt"
 
       - name: Push changes
         run: |
