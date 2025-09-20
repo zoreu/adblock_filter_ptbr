@@ -1,7 +1,10 @@
-! Title: Minha Lista Adblock
-! Author: GitHub Actions
-! Updated: 2025-09-20 21:46:47 UTC
+[Adblock Plus 2.0]
+! Version: 202509202215
+! Title: PT-BR FILTER
+! Last modified: 20 Sep 2025 22:15 UTC
+! Expires: 1 days (update frequency)
 !
+! netcine
 |http*://$popup,script,third-party,xmlhttprequest,domain=jjjx.lol|netcinef.lat|netcineo.lat|neetcine.lat
 @@||*cdn.bcdn.zip/wp-content/cache/autoptimize/js/*
 @@||*cdn.bcdn.zip/wp-includes/js/wp-embed.min.js*
