@@ -1,0 +1,11 @@
+! netcine
+|http*://$popup,script,third-party,xmlhttprequest,domain=jjjx.lol|netcinef.lat|netcineo.lat|neetcine.lat
+@@||*cdn.bcdn.zip/wp-content/cache/autoptimize/js/*
+@@||*cdn.bcdn.zip/wp-includes/js/wp-embed.min.js*
+@@||*cdn.bcdn.zip/wp-content/plugins/mystickymenu-pro/js/mystickymenu.min.js*
+@@||*cdn.bcdn.zip/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js*
+@@||*cdn.bcdn.zip/wp-includes/js/jquery/jquery-migrate.min.js*
+@@||*cdn.bcdn.zip/wp-includes/js/jquery/jquery.js*
+@@||*cdn.bcdn.zip/wp-content/themes/wpmovies4/js/js.min.js
+@@||*cdn.bcdn.zip/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js*
+@@||*ajax.googleapis.com/ajax/libs/jquery/*/jquery.min.js
