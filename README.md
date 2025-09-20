@@ -8,6 +8,7 @@ https://raw.githubusercontent.com/zoreu/adblock_filter_ptbr/refs/heads/main/adbl
 
 ## 📥 Adicionar Lista no Adblock/uBlock
 
-<a href="abp:subscribe?location=https://raw.githubusercontent.com/easylistbrasil/easylistbrasil/filtro/easylistbrasil.txt&title=EasyList Brasil" class="btn">Adicionar ao bloqueador de an&uacute;ncios</a>
+[![Adicionar ao Adblock](https://img.shields.io/badge/➕%20Adicionar%20ao%20Adblock-blue?logo=adblock&style=for-the-badge)](https://zoreu.github.io/adblock_filter_ptbr/index.html?opt=install)
+
 
 
