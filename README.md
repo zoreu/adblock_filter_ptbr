@@ -8,7 +8,8 @@ https://raw.githubusercontent.com/zoreu/adblock_filter_ptbr/refs/heads/main/adbl
 
 ## 📥 Adicionar Lista no Adblock/uBlock
 
-[![Adicionar ao Adblock](https://img.shields.io/badge/➕%20Adicionar%20ao%20Adblock-blue?logo=adblock&style=for-the-badge)](https://zoreu.github.io/adblock_filter_ptbr/index.html?opt=install)
+[![Adicionar ao Adblock](https://img.shields.io/badge/➕%20Adicionar%20ao%20Adblock-blue?logo=adblock&style=for-the-badge)](https://subscribe.adblockplus.org/?location=https://raw.githubusercontent.com/zoreu/adblock_filter_ptbr/refs/heads/main/adblock_list.txt&title=PT-BR%20FILTER)
+
 
 
 
