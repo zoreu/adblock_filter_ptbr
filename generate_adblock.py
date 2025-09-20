@@ -4,26 +4,32 @@ INPUT_FILE = "filters.txt"
 OUTPUT_FILE = "adblock_list.txt"
 
 def main():
-    # lê filtros
+    # lê linhas do arquivo, preserva comentários e ignora vazias
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
-        raw = [line.strip() for line in f if line.strip()]
+        raw = [line.rstrip() for line in f if line.strip()]
 
-    # remove duplicados preservando ordem
     seen = set()
     filters = []
     for line in raw:
         if line.startswith("!") or line.startswith("#"):
+            filters.append(line)
             continue
         if line not in seen:
             seen.add(line)
             filters.append(line)
 
-    # gera cabeçalho
-    now = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S UTC")
+    # pega data atual UTC
+    now = datetime.datetime.utcnow()
+    version = now.strftime("%Y%m%d%H%M")  # timestamp YYYYMMDDHHMM
+    last_modified = now.strftime("%d %b %Y %H:%M UTC")  # ex: 20 Sep 2025 21:30 UTC
+
+    # cabeçalho no padrão Adblock Plus 2.0
     header = [
-        "! Title: Minha Lista Adblock",
-        "! Author: GitHub Actions",
-        f"! Updated: {now}",
+        "[Adblock Plus 2.0]",
+        f"! Version: {version}",
+        "! Title: PT-BR FILTER",  # você pode trocar o título aqui
+        f"! Last modified: {last_modified}",
+        "! Expires: 1 days (update frequency)",
         "!",
     ]
 
