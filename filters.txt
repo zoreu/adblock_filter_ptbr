@@ -11,3 +11,9 @@
 @@||*ajax.googleapis.com/ajax/libs/jquery/*/jquery.min.js
 @@||*cdn.bcdn.zip/scripts/scripts522.js
 @@||*cdn.bcdn.zip/scripts/scriptmenu7.js
+@@||cdn.bcdn.zip/*/plyr.polyfilled.min.js
+@@||cdn.bcdn.zip/*/plyr-vr.js
+@@||cdn.bcdn.zip/*/hls.js
+@@||cdn.bcdn.zip/*/assets/lib/jquery/jquery.min.js
+! anti paywall
+/paywall/
