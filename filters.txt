@@ -40,3 +40,16 @@
 @@||iamcdn.net/player/jwplayer.min.js
 @@||*globalcdn*.*^$media,xmlhttprequest
 |http*://$popup,script,third-party,xmlhttprequest,domain=viewplayer.online
+! boraflix.org
+|http*://$popup,script,third-party,xmlhttprequest,domain=boraflix.org|diariodacidade.online|resenhaflix.com|universoanimes.com
+||boraflix.org^$script,third-party,xmlhttprequest
+@@||cdn.jsdelivr.net/npm/*/dist/js/bootstrap.bundle.min.js
+@@||adspublicidades.agency/go.php?auth=*
+! @@||resenhaflix.com^$document
+! @@||diariodacidade.online^$document
+@@||adspublicidades.agency^$popup,domain=boraflix.org
+@@||resenhaflix.com^$popup,domain=boraflix.org
+@@||diariodacidade.online^$popup,domain=boraflix.org
+@@|universoanimes.com^$popup,domain=boraflix.org
+@@||cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.js
+boraflix.org##div.d-flex.flex-column.gap-3 > a:nth-of-type(2)
