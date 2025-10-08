@@ -17,3 +17,6 @@
 @@||cdn.bcdn.zip/*/assets/lib/jquery/jquery.min.js
 ! anti paywall
 /paywall/
+|http*://$popup,script,third-party,xmlhttprequest,domain=gazetadopovo.com.br
+@@||soundcloud.com^$domain=gazetadopovo.com.br
+@@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=gazetadopovo.com.br
