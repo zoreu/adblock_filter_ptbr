@@ -20,3 +20,16 @@
 |http*://$popup,script,third-party,xmlhttprequest,domain=gazetadopovo.com.br
 @@||soundcloud.com^$domain=gazetadopovo.com.br
 @@||imasdk.googleapis.com/js/sdkloader/ima3.js^$script,domain=gazetadopovo.com.br
+! megacine
+|http*://$popup,script,third-party,xmlhttprequest,domain=megacine.icu|playerthree.online|megaembed.link
+@@||cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js
+@@||cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.min.js
+@@||cdn.plyr.io/*/plyr.js
+@@||vjs.zencdn.net/*/video.min.js
+@@||*.ts
+@@||*.mp3
+@@||*.m4s
+@@||*.mp4
+@@||*.m3u8
+@@||*.mp4?*
+@@||*.m3u8?*
