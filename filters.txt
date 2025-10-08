@@ -39,3 +39,4 @@
 @@||iamcdn.net/player/jwpsrv.js
 @@||iamcdn.net/player/jwplayer.min.js
 @@||*globalcdn*.*^$media,xmlhttprequest
+|http*://$popup,script,third-party,xmlhttprequest,domain=viewplayer.online
