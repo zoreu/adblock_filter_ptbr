@@ -53,3 +53,9 @@
 @@|universoanimes.com^$popup,domain=boraflix.org
 @@||cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.js
 boraflix.org##div.d-flex.flex-column.gap-3 > a:nth-of-type(2)
+! y2meta.is
+|http*://$popup,script,third-party,xmlhttprequest,domain=y2meta.is
+@@||youtube.com/oembed*$domain=y2meta.is
+@@||p.lbserver.xyz/ajax/download.php$script,xmlhttprequest,domain=y2meta.is
+@@||p.savenow.to/api/*$script,xmlhttprequest,domain=y2meta.is
+@@||p.savenow.to/api/progress*
