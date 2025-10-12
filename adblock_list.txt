@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202510122118
+! Version: 202510122342
 ! Title: PT-BR FILTER
-! Last modified: 12 Oct 2025 21:18 UTC
+! Last modified: 12 Oct 2025 23:42 UTC
 ! Expires: 1 days (update frequency)
 !
 ! netcine
@@ -58,3 +58,9 @@
 @@|universoanimes.com^$popup,domain=boraflix.org
 @@||cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.js
 boraflix.org##div.d-flex.flex-column.gap-3 > a:nth-of-type(2)
+! y2meta.is
+|http*://$popup,script,third-party,xmlhttprequest,domain=y2meta.is
+@@||youtube.com/oembed*$domain=y2meta.is
+@@||p.lbserver.xyz/ajax/download.php$script,xmlhttprequest,domain=y2meta.is
+@@||p.savenow.to/api/*$script,xmlhttprequest,domain=y2meta.is
+@@||p.savenow.to/api/progress*
