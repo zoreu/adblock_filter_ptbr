@@ -24,9 +24,12 @@ def main():
     for line in raw:
         if line.startswith("!") or line.startswith("#"):
             if 'netcine' in line.lower() and add_ntc:
-                filters.append(f"! netcine\n|http*://$popup,script,third-party,xmlhttprequest,domain={ntc}")
+                new_line = f"! netcine\n|http*://$popup,script,third-party,xmlhttprequest,domain={ntc}"
+                print('Adicionando netcine: ', new_line)
+                filters.append(new_line)
                 add_ntc = False
             else:
+                print('Adicionando:', line)
                 filters.append(line)
             continue
         if line not in seen:
