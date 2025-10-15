@@ -1,46 +1,56 @@
 name: Update Adblock List
 
 on:
-  # Roda a cada 3 horas
+  # Dispara o workflow a cada 3 horas
   schedule:
     - cron: '0 */3 * * *'
+
+  # Dispara quando filters.txt for modificado
   push:
     paths:
-      - "filters.txt"   # roda só se filters.txt for modificado
-  workflow_dispatch:    # também permite rodar manualmente
+      - "filters.txt"
+
+  # Permite rodar manualmente
+  workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     permissions:
-      contents: write  # 🔑 permite push com o GITHUB_TOKEN
-      
+      contents: write  # Permite fazer push usando GITHUB_TOKEN
+
     steps:
+      # 1️⃣ Faz checkout do repositório
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      # 2️⃣ Configura Python
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: install requests
-        run: pip install requests         
+      # 3️⃣ Instala dependências
+      - name: Install dependencies
+        run: pip install requests
 
+      # 4️⃣ Roda seu script Python para gerar a lista
       - name: Generate Adblock List
         run: python generate_adblock.py
 
+      # 5️⃣ Configura o Git para commit
       - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+      # 6️⃣ Adiciona mudanças e faz commit se houver
       - name: Commit changes
         run: |
           git add adblock_list.txt
           git diff --cached --quiet || git commit -m "Update adblock_list.txt"
 
+      # 7️⃣ Push das mudanças
       - name: Push changes
-        run: |
-          git push          
+        run: git push
