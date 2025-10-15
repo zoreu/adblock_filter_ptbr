@@ -25,6 +25,9 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: install requests
+        run: pip install requests         
+
       - name: Generate Adblock List
         run: python generate_adblock.py
 
