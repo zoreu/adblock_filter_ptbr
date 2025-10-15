@@ -1,18 +1,33 @@
 import datetime
+import requests
 
 INPUT_FILE = "filters.txt"
 OUTPUT_FILE = "adblock_list.txt"
 
+def netcine():
+    agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
+    r = requests.get('https://neetcine.lat/', headers={'User-Agent': agent}, allow_redirects=True, verify=False)
+    url = r.url
+    url = url.replace('https://', '').replace('/', '')
+    return url
+
 def main():
+    ntc = netcine()
     # lê linhas do arquivo, preserva comentários e ignora vazias
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         raw = [line.rstrip() for line in f if line.strip()]
+        if ntc not in raw:
+            add_ntc = True
 
     seen = set()
     filters = []
     for line in raw:
         if line.startswith("!") or line.startswith("#"):
-            filters.append(line)
+            if 'netcine' in line.lower() and add_ntc:
+                filters.append(f"! netcine\n|http*://$popup,script,third-party,xmlhttprequest,domain={ntc}")
+                add_ntc = False
+            else:
+                filters.append(line)
             continue
         if line not in seen:
             seen.add(line)
