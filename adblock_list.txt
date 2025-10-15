@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202510152346
+! Version: 202510152353
 ! Title: PT-BR FILTER
-! Last modified: 15 Oct 2025 23:46 UTC
+! Last modified: 15 Oct 2025 23:53 UTC
 ! Expires: 1 days (update frequency)
 !
 ! netcine
@@ -21,6 +21,8 @@
 @@||cdn.bcdn.zip/*/plyr-vr.js
 @@||cdn.bcdn.zip/*/hls.js
 @@||cdn.bcdn.zip/*/assets/lib/jquery/jquery.min.js
+@@||cdn.bcdn.zip/media-player/hls/hlsplayer/plyr.svg
+@@||cdn.bcdn.zip/media-player/hls/hlsplayer/assets.mediadelivery.net/chartist.min.js
 ! anti paywall
 /paywall/
 |http*://$popup,script,third-party,xmlhttprequest,domain=gazetadopovo.com.br
