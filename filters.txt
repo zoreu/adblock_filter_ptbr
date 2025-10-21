@@ -78,3 +78,146 @@ boraflix.org##div.d-flex.flex-column.gap-3 > a:nth-of-type(2)
 |http*://$popup,script,third-party,xmlhttprequest,domain=mixdrop.co|mixdrop.to|mixdrop.sx|mixdrop.bz|mixdrop.ch|mixdrp.co|mixdrp.to|mixdrop.gl|mixdrop.club|mixdroop.bz|mixdroop.co|mixdrop.vc|mixdrop.ag|mdy48tn97.com|md3b0j6hj.com|mdbekjwqa.pw|mdfx9dc8n.net|mixdropjmk.pw|mixdrop21.net|mixdrop.is|mixdrop.si|mixdrop23.net|mixdrop.nu|mixdrop.ms|mdzsmutpcvykb.net|mixdrop.ps|mxdrop.to|mixdrop.sb|mixdrop.my
 @@||google.com/recaptcha/api.js*
 @@||gstatic.com/cv/js/sender/*/cast_sender.js*
+! adguard - novovizer
+*$script,third-party,domain=novizer.com,important
+*$popup,domain=novizer.com,important
+*$xmlhttprequest,third-party,domain=novizer.com,important
+@@||*/adsbygoogle.js^$domain=novizer.com,important
+@@||*/adsbygoogle.js^$domain=loldewfwvwvwewefdw.cyou,important
+! adguard - novovizer, loldewfwvwvwewefdw.cyou
+*$script,third-party,domain=loldewfwvwvwewefdw.cyou,important
+*$popup,domain=loldewfwvwvwewefdw.cyou,important
+*$xmlhttprequest,third-party,domain=loldewfwvwvwewefdw.cyou,important
+! adguard - novovizer, salmoncontroversy.com
+*$script,third-party,domain=salmoncontroversy.com,important
+*$popup,domain=salmoncontroversy.com,important
+*$xmlhttprequest,third-party,domain=salmoncontroversy.com,important
+! adguard - novovizer unblock
+@@||code.jquery.com/jquery-*.min.js$script,important
+! adguard - player unblock novizer.com
+@@||ssl.p.jwpcdn.com/player/v/*/provider.hlsjs.js$script,important
+@@||ssl.p.jwpcdn.com/player/v/*/jwplayer.core.controls.js$script,important
+@@||ssl.p.jwpcdn.com/player/v/*/jwpsrv.js$script,important
+@@||entitlements.jwplayer.com/*.json
+@@||content.jwplatform.com/libraries/*.js$script,important
+@@||ssl.p.jwpcdn.com/player/v/*/provider.cast.js$script,important
+@@||*/cdn/down/*$xmlhttprequest,important
+@@||*entitlements.jwplayer.com*$xmlhttprequest,important
+! adguard - mixdrop.co
+*$script,third-party,domain=mixdrop.co,important
+*$popup,domain=mixdrop.co,important
+*$xmlhttprequest,third-party,domain=mixdrop.co,important
+! adguard - mixdrop.to
+*$script,third-party,domain=mixdrop.to,important
+*$popup,domain=mixdrop.to,important
+*$xmlhttprequest,third-party,domain=mixdrop.to,important
+! adguard - mixdrop.sx
+*$script,third-party,domain=mixdrop.sx,important
+*$popup,domain=mixdrop.sx,important
+*$xmlhttprequest,third-party,domain=mixdrop.sx,important
+! adguard - mixdrop.bz
+*$script,third-party,domain=mixdrop.bz,important
+*$popup,domain=mixdrop.bz,important
+*$xmlhttprequest,third-party,domain=mixdrop.bz,important
+! adguard - mixdrop.ch
+*$script,third-party,domain=mixdrop.ch,important
+*$popup,domain=mixdrop.ch,important
+*$xmlhttprequest,third-party,domain=mixdrop.ch,important
+! adguard - mixdrp.co
+*$script,third-party,domain=mixdrp.co,important
+*$popup,domain=mixdrp.co,important
+*$xmlhttprequest,third-party,domain=mixdrp.co,important
+! adguard - mixdrp.to
+*$script,third-party,domain=mixdrp.to,important
+*$popup,domain=mixdrp.to,important
+*$xmlhttprequest,third-party,domain=mixdrp.to,important
+! adguard - mixdrop.gl
+*$script,third-party,domain=mixdrop.gl,important
+*$popup,domain=mixdrop.gl,important
+*$xmlhttprequest,third-party,domain=mixdrop.gl,important
+! adguard - mixdrop.club
+*$script,third-party,domain=mixdrop.club,important
+*$popup,domain=mixdrop.club,important
+*$xmlhttprequest,third-party,domain=mixdrop.club,important
+! adguard - mixdroop.bz
+*$script,third-party,domain=mixdroop.bz,important
+*$popup,domain=mixdroop.bz,important
+*$xmlhttprequest,third-party,domain=mixdroop.bz,important
+! adguard - mixdroop.co
+*$script,third-party,domain=mixdroop.co,important
+*$popup,domain=mixdroop.co,important
+*$xmlhttprequest,third-party,domain=mixdroop.co,important
+! adguard - mixdrop.vc
+*$script,third-party,domain=mixdrop.vc,important
+*$popup,domain=mixdrop.vc,important
+*$xmlhttprequest,third-party,domain=mixdrop.vc,important
+! adguard - mixdrop.ag
+*$script,third-party,domain=mixdrop.ag,important
+*$popup,domain=mixdrop.ag,important
+*$xmlhttprequest,third-party,domain=mixdrop.ag,important
+! adguard - mdy48tn97.com
+*$script,third-party,domain=mdy48tn97.com,important
+*$popup,domain=mdy48tn97.com,important
+*$xmlhttprequest,third-party,domain=mdy48tn97.com,important
+! adguard - md3b0j6hj.com
+*$script,third-party,domain=md3b0j6hj.com,important
+*$popup,domain=md3b0j6hj.com,important
+*$xmlhttprequest,third-party,domain=md3b0j6hj.com,important
+! adguard - mdbekjwqa.pw
+*$script,third-party,domain=mdbekjwqa.pw,important
+*$popup,domain=mdbekjwqa.pw,important
+*$xmlhttprequest,third-party,domain=mdbekjwqa.pw,important
+! adguard - mdfx9dc8n.net
+*$script,third-party,domain=mdfx9dc8n.net,important
+*$popup,domain=mdfx9dc8n.net,important
+*$xmlhttprequest,third-party,domain=mdfx9dc8n.net,important
+! adguard - mixdropjmk.pw
+*$script,third-party,domain=mixdropjmk.pw,important
+*$popup,domain=mixdropjmk.pw,important
+*$xmlhttprequest,third-party,domain=mixdropjmk.pw,important
+! adguard - mixdrop21.net
+*$script,third-party,domain=mixdrop21.net,important
+*$popup,domain=mixdrop21.net,important
+*$xmlhttprequest,third-party,domain=mixdrop21.net,important
+! adguard - mixdrop.is
+*$script,third-party,domain=mixdrop.is,important
+*$popup,domain=mixdrop.is,important
+*$xmlhttprequest,third-party,domain=mixdrop.is,important
+! adguard - mixdrop.si
+*$script,third-party,domain=mixdrop.si,important
+*$popup,domain=mixdrop.si,important
+*$xmlhttprequest,third-party,domain=mixdrop.si,important
+! adguard - mixdrop23.net
+*$script,third-party,domain=mixdrop23.net,important
+*$popup,domain=mixdrop23.net,important
+*$xmlhttprequest,third-party,domain=mixdrop23.net,important
+! adguard - mixdrop.nu
+*$script,third-party,domain=mixdrop.nu,important
+*$popup,domain=mixdrop.nu,important
+*$xmlhttprequest,third-party,domain=mixdrop.nu,important
+! adguard - mixdrop.ms
+*$script,third-party,domain=mixdrop.ms,important
+*$popup,domain=mixdrop.ms,important
+*$xmlhttprequest,third-party,domain=mixdrop.ms,important
+! adguard - mdzsmutpcvykb.net
+*$script,third-party,domain=mdzsmutpcvykb.net,important
+*$popup,domain=mdzsmutpcvykb.net,important
+*$xmlhttprequest,third-party,domain=mdzsmutpcvykb.net,important
+! adguard - mixdrop.ps
+*$script,third-party,domain=mixdrop.ps,important
+*$popup,domain=mixdrop.ps,important
+*$xmlhttprequest,third-party,domain=mixdrop.ps,important
+! adguard - mxdrop.to
+*$script,third-party,domain=mxdrop.to,important
+*$popup,domain=mxdrop.to,important
+*$xmlhttprequest,third-party,domain=mxdrop.to,important
+! adguard - mixdrop.sb
+*$script,third-party,domain=mixdrop.sb,important
+*$popup,domain=mixdrop.sb,important
+*$xmlhttprequest,third-party,domain=mixdrop.sb,important
+! adguard - mixdrop.my
+*$script,third-party,domain=mixdrop.my,important
+*$popup,domain=mixdrop.my,important
+*$xmlhttprequest,third-party,domain=mixdrop.my,important
+@@||google.com/recaptcha/api.js*$script,important
+@@||gstatic.com/cv/js/sender/*/cast_sender.js*$script,important
