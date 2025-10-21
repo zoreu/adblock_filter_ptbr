@@ -87,7 +87,8 @@ boraflix.org##div.d-flex.flex-column.gap-3 > a:nth-of-type(2)
 ! adguard - novovizer, loldewfwvwvwewefdw.cyou
 *$script,third-party,domain=loldewfwvwvwewefdw.cyou,~pagead2.googlesyndication.com,~jquery.com,important
 *$popup,domain=loldewfwvwvwewefdw.cyou,important
-*$xmlhttprequest,third-party,domain=loldewfwvwvwewefdw.cyou,important
+! *$xmlhttprequest,third-party,domain=loldewfwvwvwewefdw.cyou,important
+*$third-party,domain=loldewfwvwvwewefdw.cyou,important
 ! adguard - novovizer, salmoncontroversy.com
 *$script,third-party,domain=salmoncontroversy.com,important
 *$popup,domain=salmoncontroversy.com,important
