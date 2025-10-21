@@ -20,6 +20,19 @@
 @@||cdn.bcdn.zip/scripts/rmobi4.js
 @@||cdn.bcdn.zip/media-player/hls/hlsplayer/assets.mediadelivery.net/pb*.js*
 @@||cdn.bcdn.zip/media-player/hls/hlsplayer/assets.mediadelivery.net/rum.js
+! adguard - netcine
+/desabilitar-botao2.js$script,important
+@@||ajax.googleapis.com/ajax/libs/jquery/*/jquery.min.js$script,important
+@@||cdn.bcdn.zip/scripts/scripts*.js$script,important
+@@||cdn.bcdn.zip/scripts/scriptmenu*.js$script,important
+@@||cdn.bcdn.zip/wp-content/themes/wpmovies4/js/js.min.js$script,important
+@@||cdn.bcdn.zip/wp-includes/js/jquery/jquery.js*$script,important
+@@||cdn.bcdn.zip/wp-includes/js/jquery/jquery-migrate.min.js*$script,important
+@@||cdn.bcdn.zip/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js*$script,important
+@@||cdn.bcdn.zip/wp-content/cache/autoptimize/js/autoptimize_single_*.js*$script,important
+@@||cdn.bcdn.zip/wp-content/plugins/mystickymenu-pro/js/mystickymenu.min.js*$script,important
+@@||cdn.bcdn.zip/wp-includes/js/wp-embed.min.js*$script,important
+@@||cdn.bcdn.zip/media-player/hls/hlsplayer/*.js$script,important
 ! anti paywall
 /paywall/
 |http*://$popup,script,third-party,xmlhttprequest,domain=gazetadopovo.com.br
