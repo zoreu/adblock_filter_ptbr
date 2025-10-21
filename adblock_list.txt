@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202510210222
+! Version: 202510210229
 ! Title: PT-BR FILTER
-! Last modified: 21 Oct 2025 02:22 UTC
+! Last modified: 21 Oct 2025 02:29 UTC
 ! Expires: 1 days (update frequency)
 !
 ! netcine
@@ -91,7 +91,7 @@ boraflix.org##div.d-flex.flex-column.gap-3 > a:nth-of-type(2)
 @@||*/adsbygoogle.js^$domain=novizer.com,important
 @@||*/adsbygoogle.js^$domain=loldewfwvwvwewefdw.cyou,important
 ! adguard - novovizer, loldewfwvwvwewefdw.cyou
-*$script,third-party,domain=loldewfwvwvwewefdw.cyou,~pagead2.googlesyndication.com,~jquery.com,important
+*$script,third-party,domain=loldewfwvwvwewefdw.cyou,~googlesyndication.com,~pagead2.googlesyndication.com,~jquery.com,important
 *$popup,domain=loldewfwvwvwewefdw.cyou,important
 ! *$xmlhttprequest,third-party,domain=loldewfwvwvwewefdw.cyou,important
 *$third-party,domain=loldewfwvwvwewefdw.cyou,important
