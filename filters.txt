@@ -58,6 +58,11 @@
 @@|universoanimes.com^$popup,domain=boraflix.org
 @@||cdnjs.cloudflare.com/ajax/libs/jquery/*/jquery.js
 boraflix.org##div.d-flex.flex-column.gap-3 > a:nth-of-type(2)
+|http*://$script,third-party,xmlhttprequest,domain=adspublicidades.agency|empresasenegocios.org
+@@||adspublicidades.agency^$popup
+@@||empresasenegocios.org^$popup
+empresasenegocios.org##.footer
+adspublicidades.agency##.footer
 ! y2meta.is
 |http*://$popup,script,third-party,xmlhttprequest,domain=y2meta.is
 @@||youtube.com/oembed*$domain=y2meta.is
