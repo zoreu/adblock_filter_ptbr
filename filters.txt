@@ -85,3 +85,28 @@ adspublicidades.agency##.footer
 @@||gstatic.com/cv/js/sender/*/cast_sender.js*
 ! ytmp3
 |http*://$popup,script,third-party,xmlhttprequest,domain=ytmp3.cx
+! donflix2.pages.dev
+|http*://$popup,script,third-party,xmlhttprequest,domain=vidsrc.cc|vidsrc-embed.ru|cloudnestra.com|autoembed.cc|vidlink.pro
+|http*://$popup,script,third-party,xmlhttprequest,domain=donflix.pages.dev
+||cdn.jsdelivr.net/npm/disable-devtool*
+@@||storm.vodvidl.site^$xmlhttprequest,domain=vidlink.pro
+@@||ssl.p.jwpcdn.com/player/v/*/jwplayer.js^$script
+@@||cdnjs.cloudflare.com/ajax/libs/bootstrap/*/js/bootstrap.bundle.min.js^$script
+@@||cdn.jsdelivr.net/npm/hls.js*^$script
+@@||cdn.jsdelivr.net/npm/axios/dist/axios.min.js^$script
+@@||ssl.p.jwpcdn.com/player/v/*/polyfills.webvtt.js^$script
+@@||cca.megafiles.store^$xmlhttprequest
+@@||*.ts*^$domain=vidsrc.cc
+@@||*.m3u8*^$domain=vidsrc.cc
+@@||dl.opensubtitles.org^$xmlhttprequest
+@@||vidsrc.cc/saas/css/embed.min.css
+@@||unpkg.com/jquery@*/dist/jquery.min.js
+@@||unpkg.com/jquery.cookie@*/jquery.cookie.js
+@@||cdnjs.cloudflare.com/ajax/libs/pako/*/pako.min.js
+@@||unpkg.com/p2p-media-loader-core@*/build/p2p-media-loader-core.min.js
+@@||unpkg.com/p2p-media-loader-hlsjs@*/build/p2p-media-loader-hlsjs.min.js
+@@||cdnjs.cloudflare.com/ajax/libs/mobile-detect/*/mobile-detect.min.js
+@@||unpkg.com/hls.js@*/dist/hls.min.js
+@@||*.html^$xmlhttprequest,domain=cloudnestra.com
+@@||backend.xprime.tv^$xmlhttprequest,domain=autoembed.cc
+@@||cdn.jwplayer.com/libraries/*.js^$script,domain=vidlink.pro
