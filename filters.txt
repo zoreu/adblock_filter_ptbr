@@ -110,3 +110,41 @@ adspublicidades.agency##.footer
 @@||*.html^$xmlhttprequest,domain=cloudnestra.com
 @@||backend.xprime.tv^$xmlhttprequest,domain=autoembed.cc
 @@||cdn.jwplayer.com/libraries/*.js^$script,domain=vidlink.pro
+! abp filters important
+youtube.com##ytd-engagement-panel-section-list-renderer[target-id^="engagement-panel-ads"]
+youtube.com##div #main-container.style-scope.ytd-promoted-video-renderer
+youtube.com##div #root.style-scope.ytd-display-ad-renderer.yt-simple-endpoint
+youtube.com##div #sparkles-container.style-scope.ytd-promoted-sparkles-web-renderer
+youtube.com##div #player-ads.style-scope.ytd-watch-flexy
+youtube.com##.video-ads .ytp-ad-player-overlay, .video-ads .ytp-ad-player-overlay-layout
+m.youtube.com##.video-ads.ytp-ad-module
+www.youtube.com##ytlr-ad-skip-or-preview
+www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
+www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[@id="ytlr-player__player-container"]//div[contains(@class,"ad-interrupting") or contains(@class,"ad-showing")]';
+delfi.lt#$#hide-if-matches-xpath './/a[contains(@href,"youtube.com")]/img[@alt]/ancestor-or-self::div[@class="row"]'
+music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
+www.youtube.com,youtube-nocookie.com#$#race start; skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting")]'; skip-video 'video.html5-main-video' './/div[@id="player"]/div[@id]//div[contains(@class,"ad-interrupting")]'; skip-video 'video.html5-main-video' './/div[@id="player"]//div[contains(@class,"ad-interrupting")]'; race stop;
+www.youtube.com,youtube-nocookie.com#$#event-override click trusted; simulate-mouse-event 'button.ytp-skip-ad-button.ytp-ad-component--clickable$delay=0'; simulate-mouse-event 'button.ytp-skip-ad-button$delay=0';
+www.youtube.com#$#map-override set AD_PLACEMENT '' value.kind;
+www.youtube.com#$#json-prune 'adSlots adPlacements playerAds' 'streamingData.formats.0.qualityOrdinal'; json-prune 'playerResponse.adPlacements playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots' 'playerResponse.streamingData.formats.0.qualityOrdinal'
+www.youtube.com,youtube-nocookie.com#$#override-property-read ytInitialPlayerResponse.adSlots emptyArray; override-property-read ytInitialPlayerResponse.adPlacements emptyArray;override-property-read ytInitialPlayerResponse.playerAds emptyArray;
+m.youtube.com,music.youtube.com,youtubekids.com#$#override-property-read playerResponse.adPlacements undefined;
+m.youtube.com,music.youtube.com,youtubekids.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
+m.youtube.com#$#override-property-read ytInitialPlayerResponse.playerAds undefined;
+m.youtube.com#$#override-property-read ytInitialPlayerResponse.adSlots undefined;
+music.youtube.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'
+m.youtube.com#$#simulate-mouse-event 'span.ytp-ad-preview-container$delay=0'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$continue,delay=100'; simulate-mouse-event 'button.ytp-skip-ad-button$continue,delay=100';
+m.youtube.com,music.youtube.com,youtubekids.com#$#json-prune 'ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds ytInitialPlayerResponse.adSlots playerResponse.adPlacements playerResponse.playerAds playerResponse.adSlots adBreakHeartbeatParams adSlots.0.adSlotRenderer adSlots.1.adSlotRenderer playerAds.0.playerLegacyDesktopWatchAdsRenderer adPlacements.0.adPlacementRenderer';
+m.youtube.com#$#json-prune 'playerResponse.adPlacements playerResponse.playerAds adPlacements playerAds adSlots playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots';
+m.youtube.com,music.youtube.com#$#override-property-read ytInitialPlayerResponse.playerConfig.ssapConfig undefined
+m.youtube.com,music.youtube.com#$#override-property-read playerResponse.adSlots undefined
+m.youtube.com,music.youtube.com#$#override-property-read playerResponse.playerAds undefined
+m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.getId_ undefined
+m.youtube.com,music.youtube.com#$#override-property-read yt.ads.biscotti.lastId_ undefined
+m.youtube.com,music.youtube.com#$#abort-on-property-write adBreakHeartbeatParams
+music.youtube.com#$#override-property-read Object.prototype.enable_isk_gating undefined
+www.youtube.com#$#override-property-read ytplayer.config.args.raw_player_response.adPlacements emptyArray; override-property-read ytplayer.config.args.raw_player_response.adSlots emptyArray; override-property-read ytplayer.config.args.raw_player_response.playerAds emptyArray;
+youtube.com#@##description-inner > ytd-merch-shelf-renderer > #main.ytd-merch-shelf-renderer
+! yt-shorts
+www.youtube.com#$#simulate-mouse-event 'div.ytd-reel-video-renderer ytd-ad-slot-renderer' 'button[aria-label="Next video"]$continue,delay=600'
+youtube.com,youtube.com##div.content-showcase-itru-marvelous-3d:not(.o9db5t):not(.b9dkjdj)
