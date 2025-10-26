@@ -110,5 +110,3 @@ adspublicidades.agency##.footer
 @@||*.html^$xmlhttprequest,domain=cloudnestra.com
 @@||backend.xprime.tv^$xmlhttprequest,domain=autoembed.cc
 @@||cdn.jwplayer.com/libraries/*.js^$script,domain=vidlink.pro
-www.youtube.com#$#simulate-mouse-event 'div.ytd-reel-video-renderer ytd-ad-slot-renderer' 'button[aria-label="Next video"]$continue,delay=600'
-youtube.com,youtube.com##div.content-showcase-itru-marvelous-3d:not(.o9db5t):not(.b9dkjdj)
