@@ -3,7 +3,7 @@ name: Update Adblock List
 on:
   # Dispara o workflow a cada 3 horas
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 */1 * * *'
 
   # Dispara quando filters.txt for modificado
   push:
