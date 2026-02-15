@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202602150556
+! Version: 202602150657
 ! Title: PT-BR FILTER
-! Last modified: 15 Feb 2026 05:56 UTC
+! Last modified: 15 Feb 2026 06:57 UTC
 ! Expires: 1 days (update frequency)
 !
 ! netcine
