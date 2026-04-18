@@ -20,6 +20,7 @@
 @@||cdn.bcdn.zip/scripts/rmobi4.js
 @@||cdn.bcdn.zip/media-player/hls/hlsplayer/assets.mediadelivery.net/pb*.js*
 @@||cdn.bcdn.zip/media-player/hls/hlsplayer/assets.mediadelivery.net/rum.js
+@@||*/*/file*.*^$third-party,media
 ! anti paywall
 /paywall/
 |http*://$popup,script,third-party,xmlhttprequest,domain=gazetadopovo.com.br
