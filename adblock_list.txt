@@ -1,12 +1,12 @@
 [Adblock Plus 2.0]
-! Version: 202609022300
+! Version: 202609030314
 ! Title: PT-BR FILTER
-! Last modified: 02 Sep 2026 23:00 UTC
+! Last modified: 03 Sep 2026 03:14 UTC
 ! Expires: 1 days (update frequency)
 !
 ! netcine
-|http*://$popup,script,third-party,xmlhttprequest,domain=netcineva.lat
-@@||*/file/*/*/*^$domain=netcineva.lat
+|http*://$popup,script,third-party,xmlhttprequest,domain=netcinewa.lat
+@@||*/file/*/*/*^$domain=netcinewa.lat
 |http*://$popup,script,third-party,xmlhttprequest,domain=jjjx.lol|netcinef.lat|netcineo.lat|neetcine.lat|nettcine.lat|netcine0.lat|netccine.lat|netcine1.lat|netcinev1.lat
 @@||*cdn.bcdn.zip/wp-content/cache/autoptimize/js/*
 @@||*cdn.bcdn.zip/wp-includes/js/wp-embed.min.js*
