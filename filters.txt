@@ -111,3 +111,13 @@ adspublicidades.agency##.footer
 @@||*.html^$xmlhttprequest,domain=cloudnestra.com
 @@||backend.xprime.tv^$xmlhttprequest,domain=autoembed.cc
 @@||cdn.jwplayer.com/libraries/*.js^$script,domain=vidlink.pro
+! estadao
+|http*://$popup,script,third-party,xmlhttprequest,domain=www.estadao.com.br
+@@||accounts.google.com^$domain=www.estadao.com.br
+@@||estadao.video-player.*/prod/powaBoot.js
+@@||pt.dwcdn.net/dor5J.css^$domain=www.estadao.com.br
+@@||estadao.video-player.*/prod/org/estadao.js*^$domain=www.estadao.com.br
+@@||*.video-player.*/beacon^$domain=www.estadao.com.br
+@@||*estadao.video-player.*/prod/powa.js
+@@||estadao-*/video/v1/ansvideos/findByUuid*^$domain=www.estadao.com.br
+@@||estadao.video-player.*/vendor/hls.js/*/hls.min.js*^$domain=www.estadao.com.br
